@@ -1,6 +1,5 @@
 # Fuel Whoops
 
-[![Build Status](https://travis-ci.org/indigophp/fuel-whoops.svg?branch=develop)](https://travis-ci.org/indigophp/fuel-whoops)
 [![Latest Stable Version](https://poser.pugx.org/indigophp/fuel-whoops/v/stable.png)](https://packagist.org/packages/indigophp/fuel-whoops)
 [![Total Downloads](https://poser.pugx.org/indigophp/fuel-whoops/downloads.png)](https://packagist.org/packages/indigophp/fuel-whoops)
 [![License](https://poser.pugx.org/indigophp/fuel-whoops/license.png)](https://packagist.org/packages/indigophp/fuel-whoops)
