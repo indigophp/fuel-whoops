@@ -34,6 +34,8 @@ class Error extends \Fuel\Core\Error
 
 	public static function _init()
 	{
+		\Config::load('whoops', true);
+
 		static::$whoops = new Run;
 
 		$pagehandler = new PrettyPageHandler;
@@ -59,6 +61,13 @@ class Error extends \Fuel\Core\Error
 				'HTTP Method'  => \Input::method(),
 			);
 		});
+
+		$editor = \Config::get('whoops.editor', false);
+
+		if ($editor)
+		{
+			$pagehandler->setEditor($editor);
+		}
 
 		static::$whoops->pushHandler($pagehandler);
 
