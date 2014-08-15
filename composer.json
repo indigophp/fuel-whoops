@@ -3,7 +3,7 @@
     "type": "fuel-package",
     "description": "Whoops! integration replacing the core error/exception handler",
     "license": "MIT",
-    "keywords": [""],
+    "keywords": ["exception", "error", "whoops"],
     "homepage": "https://indigophp.com",
     "authors": [
         {
