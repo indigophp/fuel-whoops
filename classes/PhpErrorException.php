@@ -21,16 +21,6 @@ class PhpErrorException extends \Fuel\Core\PhpErrorException
 	/**
 	 * {@inheritdoc}
 	 */
-	public static $count = 0;
-
-	/**
-	 * {@inheritdoc}
-	 */
-	public static $loglevel = \Fuel::L_ERROR;
-
-	/**
-	 * {@inheritdoc}
-	 */
 	public function recover()
 	{
 		// handle the error based on the config and the environment we're in
