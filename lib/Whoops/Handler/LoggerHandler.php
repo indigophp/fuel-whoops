@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Indigo Whoops package.
+ * This file is part of the Fuel Whoops package.
  *
  * (c) Indigo Development Team
  *
