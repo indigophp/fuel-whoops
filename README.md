@@ -3,8 +3,9 @@
 [![Latest Stable Version](https://poser.pugx.org/indigophp/fuel-whoops/v/stable.png)](https://packagist.org/packages/indigophp/fuel-whoops)
 [![Total Downloads](https://poser.pugx.org/indigophp/fuel-whoops/downloads.png)](https://packagist.org/packages/indigophp/fuel-whoops)
 [![License](https://poser.pugx.org/indigophp/fuel-whoops/license.png)](https://packagist.org/packages/indigophp/fuel-whoops)
+[![Dependency Status](http://www.versioneye.com/user/projects/53f01d4613bb068f090003f6/badge.svg?style=flat)](http://www.versioneye.com/user/projects/53f01d4613bb068f090003f6)
 
-**This package is a Fuel integration of [filp/whoops](https://github.com/filp/whoops) package.**
+**This package is a wrapper around [filp/whoops](https://github.com/filp/whoops) package.**
 
 
 ## Install
