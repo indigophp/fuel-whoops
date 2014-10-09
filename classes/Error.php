@@ -32,6 +32,8 @@ class Error extends \Fuel\Core\Error
 	 */
 	protected static $whoops;
 
+	public static $loglevel = \Fuel::L_ERROR;
+
 	public static function _init()
 	{
 		\Config::load('whoops', true);
